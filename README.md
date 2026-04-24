@@ -40,39 +40,6 @@ Data/sample files in repository:
 - `hospital_directory.csv`, `hospital_data.json`
 - `data.csv`, `data.json`
 
-## Setup
-
-1. Clone the repository:
-
-```bash
-git clone <your-repo-url>
-cd LearningPython
-```
-
-2. Create and activate a virtual environment (recommended):
-
-```bash
-python -m venv .venv
-```
-
-Windows (PowerShell):
-
-```bash
-.\.venv\Scripts\Activate.ps1
-```
-
-macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-3. Install dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn psycopg[binary]
-```
-
 ## How to Run
 
 ### 1) Generate datasets
