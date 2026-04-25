@@ -33,7 +33,6 @@ The project focuses on core data science workflows using Python:
 - `Employee_data_generator.py`: Generates `Employee.csv` (10,000 rows, 50 columns)
 - `xlsxTocsv.py`: Converts Excel data (`MID.xlsx`) to CSV (`data.csv`)
 - `csvTojson.py`: Converts CSV data (`hospital_directory.csv`) to JSON (`hospital_data.json`)
-- `import_to_neon.py`: Creates table and uploads CSV data to PostgreSQL/Neon
 
 Data/sample files in repository:
 - `Student.csv`, `Employee.csv`
@@ -81,14 +80,6 @@ You can also open:
 - `Student.csv`
 - `data.csv`
 - any compatible `.csv` or `.xlsx` file
-
-### 4) Import CSV to Neon/PostgreSQL (optional)
-
-Set your PostgreSQL connection URL in environment variables and then run:
-
-```bash
-python import_to_neon.py
-```
 
 ## Features Implemented
 
